@@ -1,2 +1,0 @@
-# ListaCompra
-Desafio Elixir - Stone

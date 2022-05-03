@@ -1,6 +1,6 @@
 # Desafio Elixir - Lista de Compra
 
-* Projeto para o precesso seletivo da Stone - Desafio Elixir | Risk Team
+* Projeto para o processo seletivo da Stone - Desafio Elixir | Risk Team
 
 ## Descrição do projeto
 Imagine uma lista de compras. Ela possui:
@@ -27,9 +27,9 @@ Para executar certifique-se de ter previamente instalado na sua máquina o Elixi
 2. Abra o terminal e acesse a pasta do projeto `cd ListaCompra`
 3. Para verificar se os testes unitários estão funcionando, execute `mix test`
 4. Para testar uma lista de compras genérica será necessário acessar o shell do projeto. Para isso execute o comando `iex -S mix`
-5. Dentro do shell execute a função `ListaCompra.slipt(<lista_de_compras>, <lista_emails>)` 
+5. Dentro do shell execute a função `ListaCompra.split(<lista_de_compras>, <lista_emails>)` 
 * A lista_de_compras é uma lista no formato:`[{"item1", quantidade_item1, valor_em_centavos_item1}, {"item2", quantidade_item2, valor_em_centavos_item2}]`
- * A lista_emails é uma lista no formato: `["nome1@email.com", "nome2@email.com"]`. Os emails das lista possuem valores únicos, caso se repitam isso será validado no código, transformando apensa em um. 
+ * A lista_emails é uma lista no formato: `["nome1@email.com", "nome2@email.com"]`. Os emails da lista possuem valores únicos, caso se repitam isso será validado no código, transformando apensa em um. 
  * Exemplo, ao executar: 
      `ListaCompra.split([{"banana", 1, 1}, {"maçã", 3, 10}], ["leticia@email.com", "leticia@email.com"])` 
      Teremos como saída um mapa com um único email, da seguinte maneira:
